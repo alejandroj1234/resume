@@ -47,16 +47,6 @@ $(document).ready(function() {
     });
 
 
-    /* Magnific Popup */
-    $('.grid-wrapper').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-
-
     /* Sticky menu */
     $(".navbar").sticky({
         topSpacing: 0
@@ -71,22 +61,6 @@ $(document).ready(function() {
         scrollSpeed: 750,
         filter: "",
         easing: "swing"
-    });
-
-    /* Charts*/
-
-    $('.chart').waypoint(function() {
-        $(this).easyPieChart({
-            barColor: '#3498db',
-            size: '150',
-            easing: 'easeOutBounce',
-            onStep: function(from, to, percent) {
-                $(this.el).find('.percent').text(Math.round(percent));
-            }
-        });
-    }, {
-        triggerOnce: true,
-        offset: 'bottom-in-view'
     });
 
 

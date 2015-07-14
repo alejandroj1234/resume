@@ -13,6 +13,7 @@ html, body {
 }
 img {
     max-width: 100%;
+    height: 190px;
 }
 a:link, a:visited {
     outline: 0;
@@ -530,4 +531,11 @@ label.valid {
     #page-profile .profile {
         margin: 0 auto 20px auto;
     }
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+  height: 250px;
 }
