@@ -13,7 +13,7 @@ html, body {
 }
 img {
     max-width: 100%;
-    height: 190px;
+    height: 150px;
 }
 a:link, a:visited {
     outline: 0;
@@ -27,6 +27,10 @@ a img {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
+}
+.socialMedia {
+    height: 50px;
+    width: 50px;
 }
 /* ==========================================================================
    Navigation
